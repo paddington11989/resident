@@ -1,0 +1,134 @@
+.footer{
+    background-color: #131212;
+    padding:63px 0px 18px;
+}
+.footer-text-logo{
+    display:none;
+}
+.footer-logo-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-link{
+    display:flex;
+}
+.footer-link-item{
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:4px;
+}
+.footer-line{
+    height:2px;
+    width:100%;
+    background-image:linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+    margin-top:21px;
+}
+.footer-block__wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
+.footer-text{
+font-family: "Jost";
+font-size: 14px;
+font-weight: 400;
+color:#e2e2e2;
+
+}
+.footer-block-text{
+width:263px;
+text-align: left;
+}
+.footer__item-title{
+font-family: "Georgia";
+font-size: 16px;
+font-weight: 700;
+color:#fff;
+margin-bottom:20px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.footer-block__item{
+    display:flex;
+    flex-direction: column;
+}
+.footer__item-link{
+    display:inline-block;
+    margin-bottom:8px;
+    cursor:pointer;
+}
+.footer-text-colored{
+    color:#979797;
+}
+.footer-link{
+    font-family: "Jost";
+font-size: 12px;
+font-weight: 500;
+color:#fff;
+text-transform: uppercase;
+text-decoration: underline;
+}
+.text-right{
+    text-align: right;
+}
+
+.footer-mini-text{
+    font-family: 'Raleway';
+font-size: 12px;
+font-weight: 400;
+color:#979797;
+}
+
+@media(max-width:1190px){
+   .container-wrapper{
+    padding:0px 40px !important;
+   }
+}
+@media(max-width:830px){
+    .footer-block__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap:40px;
+    }
+    .footer-block-text{
+        width:100%;
+    }
+}
+@media(max-width:570px){
+ .container-wrapper{
+    padding:0px 20px !important;
+ }
+}
+@media(max-width:495px){
+    .footer-img-logo{
+        display:none;
+    }
+    .footer-text-logo{
+        display:block;
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        font-weight: 500;
+        color:#fff;
+        text-transform:uppercase;
+    }
+
+    .footer-block__wrapper{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-block__item:nth-child(1){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .text-right{
+        width:100%;
+        text-align: left;
+        margin-bottom:67px;
+    }
+}

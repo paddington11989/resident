@@ -1,0 +1,192 @@
+
+.title-style{
+    font-family: Georgia;
+font-size: 24px;
+font-weight: 700;
+color: #131212;
+text-transform: uppercase;
+
+}
+.mb-0{
+    margin-bottom:0;
+}
+.gradient-btn{
+    color:#fff;
+    font-family: "Raleway";
+font-size: 12px;
+font-weight: 600;
+border:none;
+padding:6px 16px;
+background-image:linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+text-transform:uppercase;
+border-radius:6px;
+}
+.georgia-title-20{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 700;
+    color:#fff;
+    margin-bottom:16px;
+}
+.georgia-title-16{
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 700;
+    color:#fff;
+    margin-bottom:12px;
+}
+.item-text{
+    font-family: 'Jost';
+    font-size: 12px;
+    font-weight: 500;
+    background-image:linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    }
+    .item-title{
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 700;
+    color:#131212;
+    margin:14px 0px;
+    }
+
+    .block-date-light{
+        display:flex;
+        align-items: center;
+        font-family: "Segoe UI";
+        font-size: 10px;
+        font-weight: 400;
+        color:#e2e2e2;
+        text-transform: uppercase;
+    }
+    
+    .block-date-grey{
+        display:flex;
+        align-items: center;
+        font-family: "Jost";
+        font-size: 10px;
+        font-weight: 400;
+        color:#979797;
+        text-transform: uppercase;
+    }
+    .ellipse{
+        width:4px;
+        height:4px;
+        background-color: #979797;
+        border-radius:50%;
+        margin:0px 8px;
+    }
+    .ellipse-light{
+        width:4px;
+        height:4px;
+        background-color: #e2e2e2;
+        border-radius:50%;
+        margin:0px 8px;
+    }
+    
+    .black-gradient{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),linear-gradient(359.85deg, rgba(0, 0, 0, 0.6) 4.11%, rgba(0, 0, 0, 0.57) 11.09%, rgba(0, 0, 0, 0.462) 19.67%, rgba(0, 0, 0, 0.084) 39.01%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 20px !important;
+        border-radius:14px;
+    }
+    
+    @media(max-width:1190px){
+        .title__wrapper{
+            width:850px;
+            margin:0 auto;
+        }
+    }
+    @media(max-width:899px){
+        .title__wrapper{
+            width:690px;
+            margin:0 auto;
+        }
+        .georgia-title-20{
+            font-family: Georgia;
+            font-size: 16px;
+            margin-bottom:12px;
+        }
+    }
+    @media(max-width:799px){
+        .title__wrapper{
+            width:600px;
+            position: relative;
+        }
+        .title__wrapper::after{
+            position: absolute;
+            content:'';
+            width:100%;
+            padding:0px 20px;
+            height:4px;
+            background-image: linear-gradient(90deg, #B0852C 23.99%, #D8C05B 101.58%);
+            top:130%;
+        }
+    }
+    @media(max-width:699px){
+        .title__wrapper{
+            width:550px;
+        }
+    }
+    @media(max-width:629px){
+        .title__wrapper{
+            width:500px;
+        }
+    }
+    @media(max-width:595px){
+        .title__wrapper{
+            width:100%;
+        }
+    }
+    @media(max-width:495px){
+        .title-style{
+            font-size: 20px;
+        }
+    }
+    @media(max-width:450px){
+        .gradient-btn{
+            color:#fff;
+            font-family: "Raleway";
+        font-size: 12px;
+        font-weight: 600;
+        border:none;
+        padding:6px 16px;
+        background-image:linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+        text-transform:uppercase;
+        border-radius:0px;
+        }
+        .black-gradient{
+            border-radius:0px;
+        }
+        
+        .rest-block-item .item-title{
+            width:210px;
+            height:36px;
+            overflow:hidden;
+            position:relative;
+        }
+        .rest-block-item .item-title::after{
+            content: '...';
+            position: absolute;
+            bottom: 0;
+            right:5px;
+            background: #fff;
+            padding-left: 5px;
+        }
+    }
+    @media(max-width:360px){
+        .rest-block-item .item-title{
+            width:200px;
+            height:36px;
+        }
+    }

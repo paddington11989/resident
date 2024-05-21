@@ -1,0 +1,265 @@
+
+.interview{
+    padding:160px 0px 0px;
+}
+
+.top-slider-interview{
+    position: relative;
+}
+.interview-slider{
+    width:100%;
+    height:540px;
+}
+.interview__wrapper{
+    background-color: black;
+    display:flex;
+    border-radius:20px;
+    align-items: center;
+}
+.interview__img{
+    width:60%;
+    height:540px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    background-image: url(../img/interview-photo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.interview__desribtion{
+    width:40%;
+    margin-left:69px;
+}
+.interview-person{
+    font-family: Georgia;
+font-size: 24px;
+font-weight: 700;
+color:#fff;
+width:292px;
+margin:20px 0px;
+}
+.person-uppercase{
+    text-transform: uppercase;
+}
+.interview-btn{
+    color:#fff;
+    text-decoration: underline;
+    border:none;
+    background-image:linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+    text-transform: uppercase;
+    display:inline-block;
+    margin-top:20px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.top-slider-interview .slick-next{
+    top:90%;
+    left:13%;
+    border:1px solid #fff;
+    background: none !important;
+}
+.top-slider-interview .slick-prev{
+    top:90%;
+    left:6%;
+    display:block !important;
+    border:1px solid #979797;
+    background: none !important;
+}
+.top-slider-interview .slick-prev::before{
+    content:url(../img/company-prev.svg)!important;
+}
+
+
+
+.color-2{
+    background-color: #d58180;
+}
+.color-3{
+    background-color: #91d580;
+}
+
+
+@media(max-width:1190px){
+    .top-slider-interview{
+        width:850px;
+        margin:0 auto;
+    }
+   
+    .interview__img{
+        background-image: url(../img/interview-photo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .top-slider-interview .slick-next{
+        left:18%;
+    }
+    .top-slider-interview .slick-prev{
+        left:8%;
+    }
+}
+@media(max-width:899px){
+    .top-slider-interview{
+        width:670px;
+        margin:0 auto;
+    } 
+    .interview__desribtion{
+        margin-left:20px;
+        margin-right:20px;
+    }
+}
+
+@media(max-width:799px){
+    .top-slider-interview{
+        width:600px;
+    }
+    .interview-slider{
+        height:100%;
+    }
+    .interview__wrapper{
+        flex-direction: column;
+        padding:40px 16px 130px 16px;
+        height:100%;
+    }
+    .interview__desribtion{
+        width:90%;
+        margin-bottom:40px;
+    }
+    .interview-person{
+        width:100%;
+    }
+    .interview__img{
+        width:90%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .top-slider-interview .slick-next{
+        top:92%;
+        left:22%;
+    }
+    .top-slider-interview .slick-prev{
+        top:92%;
+        left:8%;
+    }
+}
+
+@media(max-width:699px){
+    .top-slider-interview{
+        width:550px;
+    }
+}
+@media(max-width:629px){
+    .top-slider-interview{
+        width:500px;
+    }
+}
+@media(max-width:595px){
+    .top-slider-interview{
+        width:100%;
+    }
+    .top-slider-interview .slick-next{
+        top:92%;
+        left:27%;
+    }
+    .top-slider-interview .slick-prev{
+        top:92%;
+        left:8%;
+    }
+}
+
+@media(max-width:450px){
+    .interview__wrapper{
+        background-color: #fff;
+    }
+    .interview__img{
+        width:100%;
+       border-top-left-radius: 0px;
+       border-bottom-left-radius: 0px;
+       border-top-right-radius: 0px;
+       border-bottom-right-radius: 0px;
+    }
+   
+    .interview__desribtion {
+        width: 100%;
+        border: 4px solid transparent;
+        padding:16px;
+        margin:0;
+        border-image: linear-gradient(90.95deg, #AF802A -0.52%, #DFC464 126.88%);
+        border-image-slice: 1;
+    }
+    .interview-person{
+        color:#131212;
+        font-size: 20px;
+    }
+
+    .interview-btn{
+        color:#131212;
+    }
+    .top-slider-interview .slick-next{
+        border:1px solid #131212;
+        top:92%;
+        left:82%;
+    }
+    .top-slider-interview .slick-next::before{
+        content:url(../img/black-next.svg)!important;
+    }
+    .top-slider-interview .slick-prev{
+        top:92%;
+        left:64%;
+    }
+    .top-slider-interview{
+        position: relative;
+    }
+    .top-slider-interview .slick-dots {
+        position: absolute;
+        bottom: 100px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+      }
+      .top-slider-interview .slick-dots li.slick-active button:before {
+        opacity: 0.75;
+        color: #000 !important;
+      }  
+      .top-slider-interview .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 10px !important;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        opacity: 0.25;
+        color: #000 !important;
+      }
+    
+      .interview__img{
+        height:240px;
+      }
+    
+}
+
+@media(max-width:420px){
+    .top-slider-interview .slick-prev{
+        top:92%;
+        left:56%;
+    }
+    .top-slider-interview .slick-next{
+        top:92%;
+        left:78%;
+    }
+}
+@media(max-width:400px){
+    .interview{
+        padding-top: 100px;
+    }
+}
