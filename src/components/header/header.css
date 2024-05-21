@@ -183,7 +183,7 @@ text-transform:uppercase;
       .burger-closed{
         display:block;
         align-self: flex-end;
-        margin-top:18px;
+        margin-top:0px;
         /* margin-right:-92%; */
       }
 }
